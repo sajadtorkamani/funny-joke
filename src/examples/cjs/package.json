@@ -1,0 +1,14 @@
+{
+  "name": "cjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "author": "Sajad Torkamani <sajadtorkamani1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "funny-joke": "file:../../.."
+  }
+}
