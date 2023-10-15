@@ -2,6 +2,16 @@
   "name": "funny-joke",
   "version": "0.0.1",
   "description": "Get a funny joke",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajadtorkamani/funny-joke.git"
+  },
+  "author": "Sajad Torkamani <sajadtorkamani1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sajadtorkamani/funny-joke/issues"
+  },
+  "homepage": "https://github.com/sajadtorkamani/funny-joke#readme",
   "main": "dist/funny-joke.cjs.js",
   "module": "dist/funny-joke.esm.js",
   "browser": "dist/funny-joke.umd.js",
@@ -15,5 +25,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "fsevents": "^2.3.3"
+  }
 }
