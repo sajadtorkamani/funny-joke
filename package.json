@@ -1,0 +1,19 @@
+{
+  "name": "funny-joke",
+  "version": "0.0.1",
+  "description": "Get a funny joke",
+  "main": "dist/funny-joke.cjs.js",
+  "module": "dist/funny-joke.esm.js",
+  "browser": "dist/funny-joke.umd.js",
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "rollup": "^4.1.1"
+  },
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "dev": "rollup -c -w --bundleConfigAsCjs"
+  },
+  "files": [
+    "dist"
+  ]
+}
