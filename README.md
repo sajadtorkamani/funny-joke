@@ -9,7 +9,7 @@ npm install funny-joke
 ### Use as ESM module
 
 ```javascript
-import funnyJoke from 'sleep'
+import funnyJoke from 'funny-joke'
 ```
 
 ### Use as CommonJS module
